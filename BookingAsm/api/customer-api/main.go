@@ -28,6 +28,7 @@ func main() {
 	gr.POST("/create", h.CreatCustomer)
 	gr.POST("/update", h.UpdateCustomer)
 	gr.POST("/changepass", h.ChangePassword)
+	gr.GET("/history", h.BookingHistory)
 	gr.GET("/find", h.FindCustomer)
 	//Listen and serve
 	g.Run(":3333")
