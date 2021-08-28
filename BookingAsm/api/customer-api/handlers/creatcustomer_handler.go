@@ -37,7 +37,7 @@ func (ch *customerHandler) CreatCustomer(c *gin.Context) {
 		Address:      req.Address,
 		Phone:        req.Phone,
 		LicenseId:    req.License_id,
-		Active:       true,
+		Active:       req.Active,
 		Email:        req.Email,
 		Password:     req.Password,
 	}
