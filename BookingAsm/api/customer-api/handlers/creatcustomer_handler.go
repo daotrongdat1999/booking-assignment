@@ -60,6 +60,7 @@ func (ch *customerHandler) CreatCustomer(c *gin.Context) {
 		Address:    pResponse.Address,
 		Email:      pResponse.Email,
 		ID:         pResponse.Id,
+		Active:     pResponse.Active,
 	}
 
 	//json to response http
