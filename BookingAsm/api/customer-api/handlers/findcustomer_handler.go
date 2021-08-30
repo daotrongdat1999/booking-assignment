@@ -54,6 +54,7 @@ func (ch *customerHandler) FindCustomer(c *gin.Context) {
 		License_id: pResponse.LicenseId,
 		Address:    pResponse.Address,
 		Email:      pResponse.Email,
+		Active:     pResponse.Active,
 	}
 
 	//json to response client
